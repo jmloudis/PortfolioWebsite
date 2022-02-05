@@ -18,7 +18,7 @@ const Footer = () => {
           <SocialIconsContainer>
               <CompanyContainer>
 
-                  {/*Change quote */}
+                  
                   <Slogan>"It is not so important to know everything as to appreciate what we learn."</Slogan>
                   <Slogan>-Hannah More</Slogan>
 
