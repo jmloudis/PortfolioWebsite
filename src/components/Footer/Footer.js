@@ -18,6 +18,7 @@ const Footer = () => {
           <SocialIconsContainer>
               <CompanyContainer>
 
+                  {/*Change quote */}
                   <Slogan>"It is not so important to know everything as to appreciate what we learn."</Slogan>
                   <Slogan>-Hannah More</Slogan>
 
@@ -28,6 +29,7 @@ const Footer = () => {
               <SocialIcons href="https://linkedin.com/in/jordan-loudis-4856561ba/">
                   <AiFillLinkedin size="3rem"></AiFillLinkedin>
               </SocialIcons>
+
               <SocialIcons href="https://twitter.com/JordanDev7">
                   <AiFillTwitterCircle size="3rem"></AiFillTwitterCircle>
               </SocialIcons>
