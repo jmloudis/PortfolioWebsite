@@ -61,7 +61,7 @@ const Timeline = () => {
                         JavaScript <br/>
                         Python <br/>
                         C++ <br/>
-                        Solidity (& <a href={""}>More</a>)
+                        Solidity (& More)
 
 
 
@@ -78,7 +78,7 @@ const Timeline = () => {
                         Git <br/>
                         SQL Workbench <br/>
                         VS Code <br/>
-                        JetBrains (& <a href={""}>More</a>)
+                        JetBrains (& More)
 
 
                     </ListParagraph>
@@ -94,7 +94,7 @@ const Timeline = () => {
                         MacOS <br/>
                         Linux <br/>
                         Raspberry Pi <br/>
-                        Arduino (& <a href={""}>More</a>)
+                        Arduino (& More)
 
 
 

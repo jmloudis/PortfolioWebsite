@@ -11,7 +11,7 @@ const Technologies = () =>  (
         <SectionTitle>Technologies</SectionTitle>
         <SectionText>
             I have worked with a wide range of technologies in the IT and Dev world.
-            From design to to deployment
+            From design to deployment
         </SectionText>
         <List>
             <ListItem>
