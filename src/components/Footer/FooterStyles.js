@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const FooterWrapper = styled.section`
-	width: calc(100vw - 96px);
+  width: calc(100vw - 96px);
   max-width: 1040px;
   padding: 2rem 48px 40px;
   margin: 1rem auto;
@@ -22,6 +22,7 @@ export const LinkItem = styled.a`
 	transition: .3s ease;
 	position: relative;
 	left: 0;
+    width: 100%;
 
 	&:hover {
 		color: #fff;
@@ -32,6 +33,7 @@ export const LinkItem = styled.a`
 		font-size: 16px;
 		line-height: 28px;
 		display: flex;
+        width: 100%;
 	}
 
 	@media ${props => props.theme.breakpoints.sm} {
@@ -39,7 +41,10 @@ export const LinkItem = styled.a`
 		line-height: 14px;
 		margin-bottom: 8px;
 		display: flex;
-		align-items: center;
+
+		//align-items: center;
+
+       
 	}
 `
 

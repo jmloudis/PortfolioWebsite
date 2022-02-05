@@ -21,7 +21,7 @@ function Hero(props) {
                 </SectionTitle>
                 <SectionText>
                     Software Developer: Java, Python, JS, C++ <br/>
-                    SQL, HTML, CSS, PHP, Solidity & More
+                    SQL, HTML, CSS, PHP, Solidity, Swift & More
                 </SectionText>
                 <Button onClick={() => window.location = "#about"}>About Me</Button>
                 <br/>
