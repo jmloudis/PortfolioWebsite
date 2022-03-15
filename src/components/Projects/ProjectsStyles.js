@@ -24,6 +24,14 @@ row-gap: 3rem;
   
 }
 
+  @media ${(props) => props.theme.breakpoints.lg} {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    padding-bottom: 0;
+
+  }
+
 `
 export const BlogCard = styled.div`
   border-radius: 10px;
@@ -34,12 +42,15 @@ export const BlogCard = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
+  
+  
 `;
 export const TitleContent = styled.div`
   text-align: center;
   //text-align: center;
   z-index: 20;
   width: 100%;
+  
 
 `;
 
@@ -68,6 +79,7 @@ export const Intro = styled.div`
   font-size: 13px;
   font-style: italic;
   line-height: 18px;
+  
 `;
 
 

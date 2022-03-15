@@ -11,11 +11,11 @@ export const HeaderImage = styled.div`
 
 export const Img = styled.img`
   width:100%;
-  //height:100%;
+  height:100%;
   transform: translateY(75px);
   border-radius: 50px;
   //max-width:100%;
-  height:auto;
+  //height:auto;
 
   @media ${(props) => props.theme.breakpoints.lg} {
     width: 0%;

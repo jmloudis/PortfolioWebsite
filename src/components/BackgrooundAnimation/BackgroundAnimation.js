@@ -10,10 +10,12 @@ const BackgroundAnimation = () => (
     <Section>
         <HeaderImage>
             {/*<SectionDivider />*/}
-        <Img src="/images/IMG_2140-2.jpg"></Img>
+        <Img src="/images/IMG_3793-2.jpg"></Img>
 
         </HeaderImage>
         <br />
+
+
     </Section>
 );
 
