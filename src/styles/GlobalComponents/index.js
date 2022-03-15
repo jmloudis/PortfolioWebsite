@@ -3,13 +3,21 @@ import styled from 'styled-components'
 export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex" };
   flex-direction: ${(props) => props.row ? "row" : "column" };
-  padding: ${(props) => props.nopadding ? "0" : "32px 48px 0" } ;
+  padding: ${(props) => props.nopadding ? "0" : "36px 48px 0" } ;
   margin: 0 auto;
+  //justify-items: center;
   max-width: 1040px;
   box-sizing: content-box;
   position: relative;
+  //align-items: center;
+  
+  
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
+  
+  @media ${(props) => props.theme.breakpoints.norm}{
+    margin-top: 16px;
+  }
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
@@ -83,9 +91,11 @@ export const SectionText = styled.p`
 
 export const SectionDivider = styled.div`
 
-  width: 64px;
+  width: 800px;
   height: 6px;
   border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 15px;
   background-color: #fff;
   background: ${(props) => props.colorAlt ? 
     'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
