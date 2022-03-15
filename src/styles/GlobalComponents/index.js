@@ -7,8 +7,11 @@ export const Section = styled.section`
   margin: 0 auto;
   //justify-items: center;
   max-width: 1040px;
+  //height: 100vw;
+  //height: 100vh;
   box-sizing: content-box;
   position: relative;
+  
   //align-items: center;
   
   
@@ -104,14 +107,18 @@ export const SectionDivider = styled.div`
     margin: ${(props) => props.divider ? "4rem 0" : "" };
 
   @media ${(props) => props.theme.breakpoints.md} {
-    width: 48px;
+    width: 500px;
     height: 4px;
+    margin: 0 auto;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
-    width: 32px;
+    width: 400px;
     height: 2px;
+    margin: 0 auto;
   }
+  
+  
 `
 export const SectionSubText = styled.p`
   max-width: 800px;

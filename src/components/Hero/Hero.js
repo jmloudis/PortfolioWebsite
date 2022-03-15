@@ -28,10 +28,14 @@ function Hero(props) {
                 <br/>
                 <br/>
                 <br/>
-                {/*<br/>*/}
-                {/*<br/>*/}
-                {/*<br/>*/}
-                {/*<br/>*/}
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
 
 
             </leftSection>
