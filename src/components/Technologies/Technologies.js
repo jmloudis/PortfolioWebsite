@@ -22,7 +22,7 @@ const Technologies = () =>  (
                         Experience with: <br />
                         React.js <br/>
                         Html <br/>
-                        Angular
+                        Bootstrap
 
                     </ListParagraph>
                 </ListContainer>
@@ -35,7 +35,7 @@ const Technologies = () =>  (
                         Experience with: <br />
                         MySQL <br/>
                         Spring Boot <br />
-                        APIs
+                        Entity Framework
                     </ListParagraph>
                 </ListContainer>
             </ListItem>
