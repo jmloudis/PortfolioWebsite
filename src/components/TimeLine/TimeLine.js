@@ -61,7 +61,7 @@ const Timeline = () => {
                         JavaScript <br/>
                         Python <br/>
                         C++ <br/>
-                        Solidity (& More)
+                        C# (& More)
 
 
 

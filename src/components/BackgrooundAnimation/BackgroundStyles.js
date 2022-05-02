@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 export const HeaderImage = styled.div`
 
+
   
   //background-image: url("/public/images/2.png");
 `
@@ -14,6 +15,7 @@ export const Img = styled.img`
   height:100%;
   transform: translateY(75px);
   border-radius: 50px;
+  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   //max-width:100%;
   //height:auto;
 

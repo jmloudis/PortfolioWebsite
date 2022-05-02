@@ -20,18 +20,22 @@ function Hero(props) {
                     Jordan Loudis
                 </SectionTitle>
                 <SectionText>
-                    Software Developer: Java, Python, JS, C++ <br/>
-                    SQL, HTML, CSS, PHP, Solidity, Swift & More
+                    Software Developer: Java, Python, JS <br/>
+                    C++, C#, SQL, HTML, CSS, PHP & More
                 </SectionText>
                 <Button onClick={() => window.location = "#about"}>About Me</Button>
                 <br/>
                 <br/>
                 <br/>
                 <br/>
-                {/*<br/>*/}
-                {/*<br/>*/}
-                {/*<br/>*/}
-                {/*<br/>*/}
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
 
 
             </leftSection>
