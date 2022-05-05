@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionText, SectionTitle, SpaceSection } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
 
@@ -9,6 +9,8 @@ import { LeftSection } from './HeroStyles';
 //     Hero
 //   </div>
 // );
+
+
 
 function Hero(props) {
 
@@ -24,18 +26,21 @@ function Hero(props) {
                     C++, C#, SQL, HTML, CSS, PHP & More
                 </SectionText>
                 <Button onClick={() => window.location = "#about"}>About Me</Button>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
+                <SpaceSection>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                </SpaceSection>
+
 
 
             </leftSection>

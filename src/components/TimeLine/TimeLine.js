@@ -48,7 +48,7 @@ const Timeline = () => {
     <Section id="about">
         <SectionTitle>About Me</SectionTitle>
         <SectionText>
-            I recently graduated form Penn State University in December 2021 with a B.S. in Information Sciences and Technology (IST): Information Systems. <br/> Aside from my profession and education. I love to travel, snowboard and rock climb! <br/>
+            I recently graduated form Penn State University in December 2021 with a B.S. in Information Sciences and Technology (IST): Information Systems - Design and Development. <br/> Aside from my profession and education. I love to travel, snowboard and rock climb! <br/>
         </SectionText>
         <List>
             <ListItem>
