@@ -301,3 +301,24 @@ export const LinkIconImg = styled.div`
     height: ${({ large }) => large ? '32px' : '16px'};
   }
 `
+
+export const SpaceSection = styled.div`
+
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    
+    br{
+      display: none;
+      
+    }
+    
+    
+    
+  }
+
+    
+    
+`
