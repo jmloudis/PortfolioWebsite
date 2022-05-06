@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: 'eFinance Web App',
+    title: 'eFinance Web Application',
     description: "This is a full stack web application using Spring boot, MySQL, Java and HTML/CSS/JS. This application allows clients to apply for specific loans while allowing authorized admin to view, read and modify user's loan applications.",
       image: '/images/eFinanceImage.jpg',
       tags: ['Java', 'Spring', 'MySQL', 'HTML'],
@@ -9,12 +9,12 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'Crypto Dashboard',
-    description: "This is a simple React application in order to view specific information about different crypto via APIs.",
-    image: '/images/Crypto.jpg',
-    tags: ['React', 'JavaScript', 'CSS'],
-    source: 'https://github.com/jmloudis/crypto_dashboard',
-    visit: 'https://github.com/jmloudis/crypto_dashboard',
+    title: 'Superhero Web Application',
+    description: "A full stack ASP.NET web application using C#, MySQL, Entity framework, HTML, CSS, and Bootstrap. Simple CRUD application with a MVC design pattern, which allows users to create, delete and update superhero’s and view the data in a table.",
+    image: '/images/SuperheroApp.png',
+    tags: ['ASP.NET', 'C#', 'Entity', "Bootstrap"],
+    source: 'https://github.com/jmloudis/SuperHeroWebApp',
+    visit: 'https://github.com/jmloudis/SuperHeroWebApp',
     id: 1,
   },
   {
@@ -27,12 +27,12 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Superhero Web Application',
-    description: "A full stack ASP.NET web application using C#, MySQL, Entity framework, HTML, CSS, and Bootstrap. Simple CRUD application with a MVC design pattern, which allows users to create, delete and update superhero’s and view the data in a table.",
-    image: '/images/SuperheroApp.png',
-    tags: ['ASP.NET', 'C#', 'Entity', "Bootstrap"],
-    source: 'https://github.com/jmloudis/SuperHeroWebApp',
-    visit: 'https://github.com/jmloudis/SuperHeroWebApp',
+    title: 'Crypto Dashboard',
+    description: "This is a simple React application in order to view specific information about different crypto via APIs.",
+    image: '/images/Crypto.jpg',
+    tags: ['React', 'JavaScript', 'CSS'],
+    source: 'https://github.com/jmloudis/crypto_dashboard',
+    visit: 'https://github.com/jmloudis/crypto_dashboard',
     id: 3,
   },
   // {

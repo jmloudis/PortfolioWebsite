@@ -2,8 +2,7 @@ import styled from 'styled-components';
 
 export const LeftSection = styled.div`
   width: 100%;
-  
-  
+
  
   
   
@@ -12,9 +11,8 @@ export const LeftSection = styled.div`
     width: 80%;
     display: flex;
     flex-direction: column;
-    br {
-      display: none;
-    }
+    //justify-items: center;
+
     
     margin: 0 auto;
   }
@@ -22,9 +20,7 @@ export const LeftSection = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
-    .br {
-      display: none;
-    }
+   
     margin: 0 auto;
   }
 
@@ -32,12 +28,7 @@ export const LeftSection = styled.div`
   
 `;
 
-export const Section = styled.div`
-    
 
-    
-    
-`;
 
 
 
