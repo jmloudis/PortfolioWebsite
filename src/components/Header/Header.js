@@ -31,7 +31,7 @@ function Header() {
                     </Link>
                 </li>
                 <li>
-                    <Link href="/images/ResumeNew.pdf">
+                    <Link href="/images/Resume2022.pdf">
                         <NavLink>Resume</NavLink>
                     </Link>
                 </li>

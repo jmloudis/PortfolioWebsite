@@ -19,7 +19,7 @@ export const projects = [
   },
   {
     title: 'Business Website',
-    description: "This is a fully responsive website built from scratch with HTML, CSS and PHP. Northstar Satellites is a local business hat is located in Malvern, Pennsylvania",
+    description: "This is a fully responsive website built from scratch with HTML, CSS and PHP. Northstar Satellites is a local business that is located in Malvern, Pennsylvania",
       image: '/images/NorthstarImage.jpg',
       tags: ['HTML', 'PHP', 'CSS'],
     source: 'https://www.northstarsatellites.com',
