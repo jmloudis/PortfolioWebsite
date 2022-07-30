@@ -87,12 +87,13 @@ export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
   color: #e4e6e7;
-  font-style: 2rem;
+  //font-style: 2rem;
   line-height: 24px;
-  text-align: justify;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
+  text-align: center; // was - justify 
   
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding:1rem;
+    
 }
 `;
 
@@ -111,6 +112,19 @@ font-size: 1.6rem;
 padding:1rem 1.5rem;
 background: #6b3030;
 border-radius: 15px;
+transition: 0.5s;
+&:hover{
+  background: #801414;
+
+}
+`;
+
+export const MoreProjects = styled.a`
+color:#d4c0c0;
+font-size: 1.6rem;
+padding:1rem 1.5rem;
+background: #6b3030;
+border-radius: 25px;
 transition: 0.5s;
 &:hover{
   background: #801414;

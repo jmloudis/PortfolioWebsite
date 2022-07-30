@@ -152,3 +152,30 @@ export const CarouselButtonDot = styled.div`
   width: 3px;
   height: 3px;
 `
+
+export const MoreProjects = styled.a`{
+  color:#d4c0c0;
+  font-size: 1.6rem;
+  padding:1rem 1.5rem;
+  background: #6b3030;
+  border-radius: 25px;
+  text-align: left;
+  transition: 0.5s;
+  margin: auto;
+}
+
+&:hover{
+  background: #801414;
+
+}
+`;
+
+
+export const MoreButtons = styled.a`{
+  color: #6b3030;
+}
+  
+  &:hover {
+    color: #801414;
+  }
+`;
