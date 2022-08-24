@@ -1,5 +1,5 @@
 import React from 'react';
-import {Section, SectionDivider, SectionText, SectionTitle} from '../../styles/GlobalComponents';
+import {Section, SectionDivider, SectionText, SectionTitle, SpaceSection} from '../../styles/GlobalComponents';
 import { Img, HeaderImage } from './BackgroundStyles';
 // import "./styles.css";
 import { UserPicture } from '../../constants/constants';
@@ -14,6 +14,20 @@ const BackgroundAnimation = () => (
 
         </HeaderImage>
         <br />
+        {/*<SpaceSection>*/}
+        {/*    <br/>*/}
+        {/*    <br/>*/}
+        {/*    <br/>*/}
+        {/*    <br/>*/}
+        {/*    <br/>*/}
+        {/*    <br/>*/}
+        {/*    <br/>*/}
+        {/*    <br/>*/}
+        {/*    <br/>*/}
+        {/*    <br/>*/}
+        {/*    <br/>*/}
+        {/*    <br/>*/}
+        {/*</SpaceSection>*/}
 
 
     </Section>

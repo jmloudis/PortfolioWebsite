@@ -27,12 +27,12 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Crypto Dashboard',
-    description: "This is a simple React application in order to view specific information about different crypto via APIs.",
-    image: '/images/Crypto.jpg',
+    title: 'Book Club Application',
+    description: "This is a full stack web application using Java, Angular, MySQL, Spring, and Bootstrap. This application allows users to create, update and delete books and book clubs. ",
+    image: '/images/BookClubDemo.jpg',
     tags: ['React', 'JavaScript', 'CSS'],
-    source: 'https://github.com/jmloudis/crypto_dashboard',
-    visit: 'https://github.com/jmloudis/crypto_dashboard',
+    source: 'https://github.com/jmloudis/BookClubFrontEnd',
+    visit: 'https://github.com/jmloudis/BookClubFrontEnd',
     id: 3,
   },
   // {

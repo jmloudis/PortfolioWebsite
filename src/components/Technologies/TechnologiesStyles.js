@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 
+
 export const ImageContainer = styled.div`
   text-align: center;
   background-image: radial-gradient(50% 50% at 50% 50%, rgba(79, 108, 176, 0.25) 53.8%, rgba(79, 108, 176, 0) 100%);
@@ -101,6 +102,7 @@ export const ListItem = styled.li`
   max-width: 320px;
   display: flex;
   flex-direction: column;
+  margin: 0 50px;
 
 @media ${props => props.theme.breakpoints.md}{
   max-width: 203px;

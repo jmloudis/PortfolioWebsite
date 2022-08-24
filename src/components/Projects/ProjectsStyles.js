@@ -2,10 +2,13 @@ import styled from 'styled-components';
 
 export const Img = styled.img`
   width:100%;
-  height:100%;
-  object-fit: cover;
+  height:200px;
+  //object-fit: cover;
   overflow: hidden;
+  //align-items: center;
 `
+
+
 
 export const GridContainer = styled.section`
 display: grid;
@@ -14,6 +17,12 @@ padding: 3rem;
 place-items: center;
 column-gap: 2rem;
 row-gap: 3rem;
+  
+  // Changes made 
+  grid-template-columns: 1fr 1fr;
+  //
+  
+  
   
   
 @media ${(props) => props.theme.breakpoints.sm} {
@@ -38,6 +47,7 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  margin: 0 35px;
   
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;

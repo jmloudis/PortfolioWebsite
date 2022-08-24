@@ -5,18 +5,22 @@ export const Section = styled.section`
   flex-direction: ${(props) => props.row ? "row" : "column" };
   padding: ${(props) => props.nopadding ? "0" : "36px 48px 0" } ;
   margin: 0 auto;
-  //justify-items: center;
   max-width: 1040px;
   //height: 100vw;
-  //height: 100vh;
+  //height: 100%; 
+  width: auto;
   box-sizing: content-box;
   position: relative;
-  
-  //align-items: center;
-  
+
+  // Changes made
+  align-items: center;
+  justify-items: center;
+  //
+ 
   
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
+  
   
   @media ${(props) => props.theme.breakpoints.norm}{
     margin-top: 16px;
@@ -33,7 +37,6 @@ export const Section = styled.section`
     width: calc(100vw - 32px);
     flex-direction: column;
     
-    
     align-items: center;
    
   }
@@ -43,8 +46,8 @@ export const ReverseSVG = styled.path`
   transform: scaleX(-1);
   
 `;
-
 export const SectionTitle = styled.h2`
+
   font-weight: 800;
   font-size: ${(props) => props.main ? '65px' : '56px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
@@ -55,7 +58,12 @@ export const SectionTitle = styled.h2`
   -webkit-text-fill-color: transparent;
   margin-bottom: 16px;
   padding: ${(props) => props.main ? '58px 0 16px' : '0'};
+  //float: right;
+  //grid-template-columns: 1fr 1fr;
+  
   //align-items: center;
+
+  
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: ${(props) => props.main ? '56px' : '48px'};
@@ -77,7 +85,7 @@ export const SectionTitle = styled.h2`
     
     
   }
-`
+`;
 
 export const SectionText = styled.p`
   max-width: 800px;

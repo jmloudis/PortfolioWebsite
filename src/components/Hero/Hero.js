@@ -3,6 +3,7 @@ import React from 'react';
 import { Section, SectionText, SectionTitle, SpaceSection } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection } from './HeroStyles';
+import {HeaderImage, Img} from "../BackgrooundAnimation/BackgroundStyles";
 
 // const Hero = (props) => (
 //   <div>
@@ -17,7 +18,7 @@ function Hero(props) {
     return (
         <Section row nopadding>
             <leftSection>
-                <SectionTitle main center>
+                <SectionTitle main>
                     Hello, I'm  <br />
                     Jordan Loudis
                 </SectionTitle>
@@ -39,13 +40,18 @@ function Hero(props) {
                     <br/>
                     <br/>
                     <br/>
-                </SpaceSection>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
 
+                </SpaceSection>
 
 
             </leftSection>
 
         </Section>
+
 
     );
 }

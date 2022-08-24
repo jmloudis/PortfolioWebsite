@@ -21,8 +21,8 @@ const Technologies = () =>  (
                     <ListTitle>Front-End</ListTitle>
                     <ListParagraph>
                         Experience with: <br />
-                        React.js <br/>
-                        HTML <br/>
+                        React <br/>
+                        Angular <br/>
                         Bootstrap
 
                     </ListParagraph>
@@ -34,7 +34,7 @@ const Technologies = () =>  (
                     <ListTitle>Back-End</ListTitle>
                     <ListParagraph>
                         Experience with: <br />
-                        Node.js <br/>
+                        Node <br/>
                         Spring Boot <br />
                         Entity Framework
                     </ListParagraph>
