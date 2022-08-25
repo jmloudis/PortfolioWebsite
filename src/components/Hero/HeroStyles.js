@@ -1,11 +1,10 @@
 import styled from 'styled-components';
 
 export const LeftSection = styled.div`
+  //width: 50%;
   width: 100%;
-
- 
-  
-  
+  //height: 100%;
+  //height: 100vh;
   
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 80%;
@@ -27,6 +26,9 @@ export const LeftSection = styled.div`
   
   
 `;
+
+
+
 
 
 

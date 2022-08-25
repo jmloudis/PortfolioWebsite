@@ -94,7 +94,7 @@ const Timeline = () => {
                                 Git <br/>
                                 SQL Workbench <br/>
                                 VS Code <br/>
-                                Eclipse <MoreButtons href="/images/Resume2022.pdf">(& More)</MoreButtons>
+                                AWS <MoreButtons href="/images/Resume2022.pdf">(& More)</MoreButtons>
 
 
                             </ListParagraph>
